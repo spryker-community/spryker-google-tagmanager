@@ -1,11 +1,11 @@
 repo_name: spryker-community/spryker-google-tagmanager
-report_id: c35947f4f500c860afec464b85f0cfc6
+report_id: 4f98f5498a6d5b0b00ba893e7b5d464f
 repo_type: Public
-timestamp: '2023-11-09T17:23:24+00:00'
-requested_by: DerCalli
+timestamp: '2023-12-14T09:51:25+00:00'
+requested_by: gxjansen
 provider: github
 branch: master
-detected_tools_count: 3
+detected_tools_count: 11
 tools:
 - name: PHP
   description: A popular general-purpose scripting language that is especially suited
@@ -37,3 +37,105 @@ tools:
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
+- name: codeception/codeception
+  description: BDD-style testing framework
+  package_url: https://packagist.org/codeception/codeception
+  version: '2.4'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-google-tagmanager/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Pascal Fischer
+  last_updated_on: 2020-02-12 13:20:20.000000000 Z
+- name: fond-of-codeception/spryker
+  description: Spryker module for codeception
+  package_url: https://packagist.org/fond-of-codeception/spryker
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source: composer.json
+  last_updated_by: Pascal Fischer
+  last_updated_on: 2020-05-05 10:41:52.000000000 Z
+- name: php-coveralls/php-coveralls
+  description: PHP client library for Coveralls API
+  package_url: https://packagist.org/php-coveralls/php-coveralls
+  version: '2.1'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-google-tagmanager/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Pascal Fischer
+  last_updated_on: 2020-02-12 13:20:20.000000000 Z
+- name: phpro/grumphp
+  description: A composer plugin that enables source code quality checks
+  package_url: https://packagist.org/phpro/grumphp
+  version: '0.14'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-google-tagmanager/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Jozsef Geng
+  last_updated_on: 2018-03-28 10:48:36.000000000 Z
+- name: sebastian/phpcpd
+  description: Copy/Paste Detector
+  package_url: https://packagist.org/sebastian/phpcpd
+  version: '4.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-google-tagmanager/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Pascal Fischer
+  last_updated_on: 2020-02-12 13:20:20.000000000 Z
+- name: spryker/code-sniffer
+  description: Spryker Code Sniffer Standards
+  package_url: https://packagist.org/spryker/code-sniffer
+  version: '0.12'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-google-tagmanager/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Pascal Fischer
+  last_updated_on: 2020-05-05 10:41:52.000000000 Z
+- name: spryker/kernel
+  description: Kernel module
+  package_url: https://packagist.org/spryker/kernel
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-google-tagmanager/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Pascal Fischer
+  last_updated_on: 2020-05-05 10:41:52.000000000 Z
+- name: spryker/product
+  description: Product module
+  package_url: https://packagist.org/spryker/product
+  version: 6.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/spryker-community/spryker-google-tagmanager/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Pascal Fischer
+  last_updated_on: 2020-05-05 10:41:52.000000000 Z
